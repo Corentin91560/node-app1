@@ -1,0 +1,10 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel='stylesheet' href='/stylesheets/style.css' />
+  </head>
+  <body>
+    <h1>Ville</h1>
+    <p>{{nom_ville}}</p>
+  </body>
+</html>
