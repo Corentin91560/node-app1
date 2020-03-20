@@ -7,6 +7,7 @@ router.post('/', function(req, res, next) {
 
 
   const url = `https://geocode.xyz/${req.body.nom_ville}?json=1&auth=${geoKey}`;
+  console.log(req.body.nom_ville);
   const getData = async url => {
   try {
     const response = await axios.get(url);
